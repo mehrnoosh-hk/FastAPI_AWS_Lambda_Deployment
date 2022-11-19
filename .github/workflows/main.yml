@@ -13,6 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: check-out
-        uses: actions/chechout@v2
+      -  uses: actions/chechout@v2
 

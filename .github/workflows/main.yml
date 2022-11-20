@@ -23,8 +23,7 @@ jobs:
           cache: "pip"
 
       - name: Create and activate venv
-        run: python -m venv venv | 
-             venv/source/bin/activate
+        run: python -m venv venv && venv/source/bin/activate
 
       - name: Install dependencies
         run: pip install -r requirements.txt
